@@ -14,7 +14,7 @@ export const navItems = [
 ];
 
 export const projectLinks: ProjectLink[] = [
-  { label: "Paper", state: "coming-soon" },
+  { label: "Paper", href: "https://arxiv.org/abs/2605.00347", state: "live" },
   { label: "Code", state: "coming-soon" },
 ];
 
@@ -87,8 +87,9 @@ export const affiliations = [
   { id: 3, label: "Tsinghua University" },
 ] as const;
 
-export const citation = `@misc{shi2026odysseus,
+export const citation = `@article{shi2026odysseus,
   title = {Odysseus: Scaling VLMs to 100+ Turn Decision-Making in Games via Reinforcement Learning},
   author = {Shi, Chengshuai and Li, Wenzhe and Liang, Xinran and Lu, Yizhou and Yang, Wenjia and Feng, Ruirong and Karten, Seth and Yang, Ziran and Ding, Zihan and Sarch, Gabriel and Chen, Danqi and Narasimhan, Karthik and Jin, Chi},
+  journal = {arXiv preprint arXiv:2605.00347},
   year = {2026}
 }`;

@@ -519,6 +519,8 @@ export default function App() {
                     key={link.label}
                     className={`cta-button ${link.state === "coming-soon" ? "is-muted" : ""}`}
                     href={link.href ?? "#cite"}
+                    target={link.state === "live" ? "_blank" : undefined}
+                    rel={link.state === "live" ? "noreferrer" : undefined}
                     aria-disabled={link.state === "coming-soon"}
                   >
                     {link.label}
