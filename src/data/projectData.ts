@@ -15,6 +15,11 @@ export const navItems = [
 
 export const projectLinks: ProjectLink[] = [
   { label: "Paper", href: "https://arxiv.org/abs/2605.00347", state: "live" },
+  {
+    label: "Models",
+    href: "https://huggingface.co/collections/Odysseus-Project/odysseus",
+    state: "live",
+  },
   { label: "Code", state: "coming-soon" },
 ];
 
