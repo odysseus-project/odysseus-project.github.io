@@ -20,7 +20,11 @@ export const projectLinks: ProjectLink[] = [
     href: "https://huggingface.co/collections/Odysseus-Project/odysseus",
     state: "live",
   },
-  { label: "Code", state: "coming-soon" },
+  {
+    label: "Code",
+    href: "https://github.com/odysseus-project/odysseus-mario-training",
+    state: "live",
+  },
 ];
 
 export const methodFigures: FigurePanel[] = [
